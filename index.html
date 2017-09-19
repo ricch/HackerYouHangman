@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HackerYou Hangman</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|" rel="stylesheet">
+	<script src="https://use.fontawesome.com/be7cb9fabf.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+<section class="showLose displayNone">
+	<div class="flex">
+		<div class="staffImage displayNone"></div>
+		<div class="callToAction displayNone">
+			<div class="youDied"></div>
+			<input class="reset" type="button" value="Play Again" onClick="document.location.reload(true)">
+			<button class="twitterButton">
+			<a href="http://twitter.com/share?text=Check out our HackerYou Hangman"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+			</button>
+		</div>
+	</div>
+</section>
+<header>
+	<div class="wrapper">
+		<img src="images/logo-hackeryou.svg" alt="hackerYou Hangman">
+	</div>
+</header>
+
+<main class="gameDisplay">
+	<div class="flex">
+		<div class="hangmanImage">
+		<img src="images/hangmanPost.png" alt="">
+		<div class="hangmanPerson"></div>
+		</div>
+		<div class="textSolution">
+		</div>
+	</div>
+</main>
+
+<section class="keyboard">
+	<div class="wrapper">
+		<form>
+			<input type="button" value="a">
+			<input type="button" value="b">
+			<input type="button" value="c">
+			<input type="button" value="d">
+			<input type="button" value="e">
+			<input type="button" value="f">
+			<input type="button" value="g">
+			<input type="button" value="h">
+			<input type="button" value="i">
+			<input type="button" value="j">
+			<input type="button" value="k">
+			<input type="button" value="l">
+			<input type="button" value="m">
+			<input type="button" value="n">
+			<input type="button" value="o">
+			<input type="button" value="p">
+			<input type="button" value="q">
+			<input type="button" value="r">
+			<input type="button" value="s">
+			<input type="button" value="t">
+			<input type="button" value="u">
+			<input type="button" value="v">
+			<input type="button" value="w">
+			<input type="button" value="x">
+			<input type="button" value="y">
+			<input type="button" value="z">
+		</form>
+	<p>Created by Matthew Parris & Richard Chin. Cohort'15</p>
+	</div>
+</section>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+	<script src="scripts/scripts.js"></script>
+</body>
+</html>
